@@ -1,0 +1,26 @@
+{
+  "name": "djs05",
+  "version": "1.0.0",
+  "description": "DJS05",
+  "main": "store.js",
+  "type": "module",
+  "scripts": {
+    "test": "\"test\": \"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thaboxan/THAJAF449_WFO2401_GROUPA_ThaboJafta_DJS05.git"
+  },
+  "keywords": [
+    "DJS05"
+  ],
+  "author": "Thabo Jafta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thaboxan/THAJAF449_WFO2401_GROUPA_ThaboJafta_DJS05/issues"
+  },
+  "homepage": "https://github.com/thaboxan/THAJAF449_WFO2401_GROUPA_ThaboJafta_DJS05#readme",
+  "dependencies": {
+    "redux": "^5.0.1"
+  }
+}

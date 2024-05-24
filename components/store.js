@@ -1,3 +1,4 @@
+import { createStore, applyMiddleware } from "redux";
 import counterReducer from "./reducers";
 
 const logger = (store) => (next) => (action) => {
@@ -7,6 +8,6 @@ const logger = (store) => (next) => (action) => {
   return result;
 };
 
-const store = configureStore(counterReducer);
+const store = createStore(counterReducer, applyMiddleware(logger));
 
 export default store;
